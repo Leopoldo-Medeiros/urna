@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### dotenv template
 .env
 
@@ -138,6 +139,19 @@ dist
 /node_modules
 /.pnp
 .pnp.js
+=======
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+>>>>>>> 5bd4bcd77e653e649436b8c2d5ef9f6daa39b068
 
 # testing
 /coverage
@@ -157,10 +171,16 @@ dist
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 .pnpm-debug.log*
 
 # local env files
 .env*.local
+=======
+
+# env files (can opt-in for committing if needed)
+.env*
+>>>>>>> 5bd4bcd77e653e649436b8c2d5ef9f6daa39b068
 
 # vercel
 .vercel
@@ -168,4 +188,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5bd4bcd77e653e649436b8c2d5ef9f6daa39b068
